@@ -1,5 +1,5 @@
 (function () {
-    var CONFIG = { accessKey: "YOUR_WEB3FORMS_ACCESS_KEY", endpoint: "https://api.web3forms.com/submit", fallbackEmail: "consultkingss@gmail.com" };
+    var CONFIG = { accessKey: "58e8a87b-52ba-4a68-93ff-0fa40e3a0b68", endpoint: "https://api.web3forms.com/submit", fallbackEmail: "consultkingss@gmail.com" };
     var form = document.getElementById("contact-form"); if (!form) return;
     var statusEl = document.getElementById("form-status"), btn = form.querySelector("[type=submit]"), label = btn.textContent, busy = false;
     var rules = {
